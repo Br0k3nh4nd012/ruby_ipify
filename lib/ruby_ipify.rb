@@ -48,7 +48,7 @@ class RubyIpify
         end
 
         def handle_response
-            return if success? && false
+            return if success?
 
             raise RubyIpifyException::IpifyRequestError.new @response.code
         end
