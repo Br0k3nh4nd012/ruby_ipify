@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name = "ruby_ipify"
-    s.version = "0.0.0"
+    s.version = "0.0.1"
     s.summary = "Ipify in ruby"
     s.description = "A Ruby gem to use ipify which is a simple public IP address API."
     s.authors = ["Gokulakrishnan"]
